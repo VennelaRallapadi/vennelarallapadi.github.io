@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rallapadi Vennela — DevOps Engineer and Python Backend Developer portfolio." />
+  <title>Rallapadi Vennela | DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Vennela home"><span class="brand-mark">V</span><span>vennela<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact me <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> DEVOPS ENGINEER · BENGALURU, INDIA</div>
+        <h1>Building reliable<br><span class="gradient-text">cloud experiences.</span></h1>
+        <p class="hero-lead">I'm <strong>Rallapadi Vennela</strong> — a DevOps Engineer and Python Backend Developer focused on cloud infrastructure, CI/CD automation, and dependable applications.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-secondary" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> AWS · Terraform · Docker · Kubernetes</span><span>5 years of experience*</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="photo-frame"><img src="profile.jpg" alt="Portrait of Rallapadi Vennela" /></div>
+        <div class="floating-card card-top"><span class="card-icon">⌘</span><span><b>Automation first</b><small>CI/CD · Infrastructure as Code</small></span></div>
+        <div class="floating-card card-bottom"><span class="pulse-bars"><i></i><i></i><i></i><i></i></span><span><b>Cloud operations</b><small>Monitor · Improve · Deliver</small></span></div>
+        <div class="hero-number">01 <span>/ ENGINEERING</span></div>
+      </div>
+    </section>
+
+    <section class="quick-stats section-wrap" aria-label="Portfolio highlights">
+      <div><strong>5<span>+</span></strong><p>Years of experience*</p></div>
+      <div><strong>CI/CD</strong><p>Build, test & deploy</p></div>
+      <div><strong>AWS</strong><p>Cloud infrastructure</p></div>
+      <div><strong>Python</strong><p>Backend & automation</p></div>
+    </section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-kicker">01 / ABOUT ME</div>
+      <div class="section-heading-row"><h2>Engineering with<br><span class="muted-heading">purpose and precision.</span></h2><p class="section-intro">I connect development and operations to help teams ship software confidently—from infrastructure provisioning to production monitoring.</p></div>
+      <div class="about-grid">
+        <div class="about-panel"><span class="panel-symbol">✳</span><h3>What I do</h3><p>Design and maintain CI/CD pipelines, containerize services, provision AWS infrastructure with Terraform, and support production systems with monitoring and root-cause analysis.</p></div>
+        <div class="about-panel"><span class="panel-symbol">⌁</span><h3>How I work</h3><p>With automation, clear documentation, secure access practices, and close collaboration with developers and QA in Agile/Scrum teams.</p></div>
+        <div class="about-panel"><span class="panel-symbol">↗</span><h3>My foundation</h3><p>Hands-on experience across AWS and DevOps, supported by Python, Django REST APIs, SQL databases, Redis, and Celery.</p></div>
+      </div>
+      <p class="footnote">*Experience dates and details are presented as provided in the attached resume.</p>
+    </section>
+
+    <section class="content-section section-wrap" id="skills">
+      <div class="section-kicker">02 / TOOLKIT</div>
+      <div class="section-heading-row"><h2>Tools I use to<br><span class="muted-heading">make things work.</span></h2><p class="section-intro">A practical toolkit for cloud infrastructure, release automation, backend development, and operational reliability.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon">☁</span><span class="skill-index">01</span></div><h3>Cloud & AWS</h3><p>EC2, ECS, ECR, EKS, S3, RDS, Lambda, DynamoDB, EBS, EFS, IAM, ALB, Auto Scaling, CloudWatch</p><div class="skill-tags"><span>AWS</span><span>Cloud operations</span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon">⌘</span><span class="skill-index">02</span></div><h3>DevOps & CI/CD</h3><p>Jenkins, GitHub, automated build/test/deploy pipelines, Git branching, pull requests, code reviews</p><div class="skill-tags"><span>Automation</span><span>Release</span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon">◫</span><span class="skill-index">03</span></div><h3>Containers & IaC</h3><p>Docker, Kubernetes, Amazon ECS, ECR image management, Terraform for compute, networking, storage, database, and IAM</p><div class="skill-tags"><span>Docker</span><span>Terraform</span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon">⌁</span><span class="skill-index">04</span></div><h3>Backend engineering</h3><p>Python, Django, Django REST Framework, FastAPI, REST APIs, SQL, JWT authentication, role-based authorization</p><div class="skill-tags"><span>Python</span><span>REST APIs</span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon">▤</span><span class="skill-index">05</span></div><h3>Data & background jobs</h3><p>PostgreSQL, MySQL, Amazon RDS, Redis, Celery, Django ORM, query optimization and indexing</p><div class="skill-tags"><span>Databases</span><span>Caching</span></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-icon">◉</span><span class="skill-index">06</span></div><h3>Monitoring & security</h3><p>CloudWatch logs and metrics, health checks, Linux troubleshooting, root-cause analysis, IAM and secure credentials</p><div class="skill-tags"><span>Observability</span><span>IAM</span></div></article>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="experience">
+      <div class="section-kicker">03 / EXPERIENCE</div>
+      <div class="section-heading-row"><h2>Experience built<br><span class="muted-heading">around delivery.</span></h2><p class="section-intro">Hands-on work across DevOps engineering and Python backend development at SSL Infotech Private Limited.</p></div>
+      <div class="timeline">
+        <div class="timeline-marker"><span></span></div>
+        <article class="experience-card">
+          <div class="experience-top"><div><span class="experience-type">PROFESSIONAL EXPERIENCE</span><h3>DevOps Engineer (AWS) / Python Backend Developer</h3><p class="company">SSL Infotech Private Limited</p></div><span class="date-pill">Oct 2021 — Oct 2026</span></div>
+          <ul class="achievement-list">
+            <li>Built and maintained Jenkins CI/CD pipelines integrated with GitHub for checkout, testing, Docker image builds, and deployments.</li>
+            <li>Containerized backend applications and deployed services on AWS ECS, managing images in Amazon ECR.</li>
+            <li>Provisioned compute, networking, storage, database, and access-management resources using Terraform.</li>
+            <li>Operated applications using EC2, S3, RDS PostgreSQL, ALB, IAM, and CloudWatch monitoring.</li>
+            <li>Investigated production issues on Linux using logs, API responses, health checks, and database queries.</li>
+            <li>Developed Python/Django REST APIs with JWT authentication, role-based authorization, Redis caching, and Celery tasks.</li>
+            <li>Worked with frontend developers and QA engineers in Agile/Scrum planning and release readiness.</li>
+          </ul>
+          <div class="experience-stack"><span>AWS</span><span>Jenkins</span><span>Docker</span><span>Terraform</span><span>Python</span><span>Django</span><span>PostgreSQL</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="projects">
+      <div class="section-kicker">04 / FEATURED PROJECT</div>
+      <div class="section-heading-row"><h2>Work that connects<br><span class="muted-heading">systems and people.</span></h2><p class="section-intro">A cloud-hosted platform combining customer relationship management, learning workflows, and AI-powered automation.</p></div>
+      <article class="project-card">
+        <div class="project-art">
+          <div class="project-window"><div class="window-bar"><span></span><span></span><span></span><small>cloud-platform / overview</small></div><div class="dashboard"><div class="dash-sidebar"><b>V.</b><i></i><i></i><i></i><i></i></div><div class="dash-main"><div class="dash-heading"><span>Platform overview</span><span class="dash-live">● LIVE SYSTEMS</span></div><div class="dash-metrics"><div><small>CRM</small><b>Connected</b><i></i></div><div><small>Learning</small><b>Active</b><i></i></div><div><small>Automation</small><b>Enabled</b><i></i></div></div><div class="dash-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="dash-bottom"><i></i><i></i><i></i></div></div></div></div>
+        </div>
+        <div class="project-info"><span class="project-label">CLOUD PLATFORM · AI AUTOMATION</span><h3>Cloud-Based CRM, LMS & AI Automation Platform</h3><p>A platform integrating GoHighLevel CRM, a Learning Management System, and AI-powered automation for lead management, customer engagement, course delivery, and student support.</p><div class="project-contributions"><h4>Key contributions</h4><ul><li>Containerized services with Docker and deployed on AWS ECS using Amazon ECR.</li><li>Automated testing, image builds, and deployments with Jenkins and GitHub.</li><li>Provisioned cloud resources with Terraform; configured RDS PostgreSQL, S3, and Redis/Celery.</li><li>Integrated Amazon Bedrock for lead qualification, course recommendations, and automated support.</li><li>Built REST APIs and GoHighLevel webhooks for CRM sync, enrolment, quizzes, and progress tracking.</li></ul></div><div class="project-tags"><span>Python</span><span>Django REST</span><span>AWS</span><span>Docker</span><span>Jenkins</span><span>Terraform</span><span>Amazon Bedrock</span></div></div>
+      </article>
+    </section>
+
+    <section class="education-strip section-wrap">
+      <div><div class="section-kicker">05 / EDUCATION</div><h2>Strong fundamentals.<br><span class="muted-heading">Continuous learning.</span></h2></div>
+      <div class="education-detail"><span class="education-icon">✳</span><div><h3>Bachelor of Science — Computer Science</h3><p>Himaja Degree College, Puttur</p><span>2018 — 2021</span></div></div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-orb"></div><div class="section-kicker">06 / LET'S CONNECT</div>
+      <h2>Have a challenge<br>to <span class="gradient-text">solve together?</span></h2>
+      <p class="contact-lead">I'm open to connecting about DevOps, cloud infrastructure, CI/CD, and Python backend engineering opportunities.</p>
+      <div class="contact-actions"><a class="button button-primary" href="mailto:vennelarallapadi3861@gmail.com">Email me <span>↗</span></a><a class="button button-secondary" href="https://www.linkedin.com/in/vennela-rallapadi3861" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a class="button button-secondary" href="https://github.com/VennelaRallapadi" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div>
+      <div class="contact-details"><span>✉ vennelarallapadi3861@gmail.com</span><span>⌖ Bengaluru, Karnataka, India</span><span>☎ +91 63020 45818</span></div>
+    </section>
+  </main>
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">V</span><span>vennela<span class="brand-dot">.</span></span></a><p>Designed with care · © <span id="year"></span> Rallapadi Vennela</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+</body>
+</html>
